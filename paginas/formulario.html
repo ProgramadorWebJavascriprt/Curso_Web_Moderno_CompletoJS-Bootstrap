@@ -1,0 +1,88 @@
+<div class="jumbotron p-4 my-1"></div>
+  <h1 class="display-4"> Formularios </h1> 
+  <p class="lead m-1">  Exemplo de alguns Componentes de Formulário    </p>
+ <nav class="mb5">
+     <ol class="breadcrumb">
+         <li class="breadcrumb-item">
+         <a href="#/paginas/bemVindo.html"> Home </a> </li>
+         <li class="breadcrumb-item active">formulario</li>
+
+
+     </ol>
+ </nav>
+<p class="lead">
+    <a href="https://getbootstrap.com/docs/4.0/components/forms/" target="_black">Documentação Oficial</a>
+</p>
+
+<!-- Formulário -->
+<div class="card">
+    <div class="card-header">
+        <h5 class="mb-0">
+           Exemplo de Formulário 
+        </h5>
+    </div>
+    <div class="card-body">
+      <form action="" class="container-fluid">
+          <div class="form-row">
+              <div class="col-12">
+                  <div class="form-group">
+                     <label for="nome">Nome</label>
+                     <input type="text" class="form-control" id="nome" placeholder="Informe o nome" >
+
+                  </div>
+              </div>
+          </div>
+        <div class="form-row">
+            <div class="col-12 col-md-6">
+                <div class="form-group">
+                   <label for="email"> Email </label> 
+                   <div class="input-group">
+                      <div class="input-group-prepend">
+                          <span class="input-group-text"> @ </span>
+                      </div> 
+                      <input type="email" class="form-vontrol" id="email" placeholder="Informe o Email!">
+                   </div>
+                   <small class="form-text-muted">
+                       Enviaremos um e-mail de confirmação.
+                   </small>
+                </div>
+            </div>
+            <div class="col-12 col-md-6">
+                <div class="form-group">
+                  <label for="linguagemPreferida">
+                      linguagem 
+                  </label>  
+                  <select id="linguagemPreferida" class="form-control">
+                      <option> Selecione: </option>
+                      <option> JS </option>
+                      <option> Java  </option>
+                      <option> Python </option>
+                      <option>  Outra </option>
+
+                  </select>
+                 </div> 
+                 <!---
+                vou parar por aqui amanhã pela tarde finalizo e publico no Github
+                 sexta-feira,31/12/2021 as 14:00:00 h+|-
+            -->
+            </div>
+        </div>
+        <div class="form-row">
+            <div class="col-12">
+                <div class="form-row mb-0">
+                    <div class="col-12  d-flex justify-content-end ">
+                     <button class="btn btn-primary mr-2" type="submit"> Salvar  </button>
+                     <button class="btn btn-secondary" type="reset"> Cancelar  </button>
+                    </div>
+            </div>
+        </div>
+        <hr>
+          <div class="form-row mb-0">
+              <div class="col-12  d-flex justify-content-end ">
+               <button class="btn btn-primary mr-2" type="submit"> Salvar  </button>
+               <button class="btn btn-secondary" type="reset"> Cancelar  </button>
+              </div>
+          </div>
+      </form> 
+    </div>
+</div>
